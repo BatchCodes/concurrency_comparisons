@@ -27,7 +27,7 @@ def main(
 
 if __name__ == "__main__":
   processesTime = main(MyProcess)
-  # threadingTime = main(MyThread)
-  # print(
-  #     f"\nProcessing Time: {processesTime}\nThreading Time: {threadingTime}"
-  # )
+  threadingTime = main(MyThread)
+  print(
+      f"\nProcessing Time: {processesTime}\nThreading Time: {threadingTime}"
+  )
